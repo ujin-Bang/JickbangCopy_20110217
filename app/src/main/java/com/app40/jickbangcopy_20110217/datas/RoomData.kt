@@ -12,7 +12,7 @@ class RoomData(
 
     fun getFormattedPrice(): String{
 
-        if(this.price <10000) {
+        if(this.price < 10000) {
             return NumberFormat.getNumberInstance(Locale.KOREA).format(this.price)
         }
         else {
