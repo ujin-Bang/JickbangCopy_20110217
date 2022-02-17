@@ -6,4 +6,10 @@ class RoomData(
     val floor: Int,
     val description: String,
 ) {
+
+    fun getFomattedPrcie(){
+
+        if(this.)
+
+    }
 }
