@@ -1,5 +1,6 @@
 package com.app40.jickbangcopy_20110217.datas
 
+import java.io.Serializable
 import java.text.NumberFormat
 import java.util.*
 
@@ -8,7 +9,7 @@ class RoomData(
     val address : String,
     val floor: Int,
     val description : String,
-) {
+): Serializable {
 
     fun getFormattedPrice(): String{
 

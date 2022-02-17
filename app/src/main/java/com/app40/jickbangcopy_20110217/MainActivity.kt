@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             val clickedRoom = mRoomList[position]
 
             val myIntent = Intent(this, ViewRoomDetailActivity::class.java)
-            myIntent.putExtra("priceInfo",clickedRoom.getFormattedPrice())
+            myIntent.putExtra("roomInfo",clickedRoom)
             startActivity(myIntent)
 
         }
